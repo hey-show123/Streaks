@@ -11,8 +11,8 @@ struct PrivacyPolicyView: View {
     @Environment(\.dismiss) var dismiss
     @Environment(\.openURL) var openURL
     
-    // GitHub PagesのURL（リポジトリ名をStreaksに仮定）
-    private let privacyPolicyURL = URL(string: "https://hey-show123.github.io/Streaks/")!
+    // GitHub PagesのURL
+    private let privacyPolicyURL = URL(string: "https://hey-show123.github.io/Habita/")!
     
     var body: some View {
         VStack {

@@ -11,8 +11,8 @@ struct HelpView: View {
     @Environment(\.dismiss) var dismiss
     @Environment(\.openURL) var openURL
     
-    // GitHub PagesのURL（リポジトリ名をStreaksに仮定）
-    private let helpURL = URL(string: "https://hey-show123.github.io/Streaks/help.html")!
+    // GitHub PagesのURL
+    private let helpURL = URL(string: "https://hey-show123.github.io/Habita/help.html")!
     
     var body: some View {
         VStack {
